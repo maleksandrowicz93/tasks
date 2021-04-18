@@ -1,0 +1,8 @@
+This task has been solved with the us of TDD methodology too. You can find tests in link below:
+
+https://github.com/maleksandrowicz93/tasks
+
+In high level, the solution use new created method named isInArray which check if given string is in checked array.
+Then this method is called for array A and array B and final result is logical AND between 2 validations.
+
+I used Optional API to avoid nullPointerException (both in case of whole array and array record) and filtering array converted into List.

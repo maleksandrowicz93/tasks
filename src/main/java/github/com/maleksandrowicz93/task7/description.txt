@@ -1,0 +1,9 @@
+This solution always checks commit in the middle of whole commits scope.
+If commit is correct, it is known that first incorrect commit is in 2nd half of scope.
+But if commit is incorrect, it is known that first incorrect commit is in 1st half of scope.
+So, my solutions always checks midpoint commit and in case of result of correctness checking, scope is reduced into one of halfs.
+Thanks for that number of attempts is related to powers of number 2.
+Accordingly, we need only from 8 to 10 attempts so, it will take us minimum 80 minutes and maximum 100 minutes.
+In remote repo link you can find tests which count computing time:
+
+https://github.com/maleksandrowicz93/tasks

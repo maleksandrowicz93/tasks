@@ -1,6 +1,6 @@
 The code has been improved with the use of TDD methodology. At first, the test class had been created and then I did code refactor. I have created fake model classes to make solution simpler. Link to entire solution:
 
-http:
+https://github.com/maleksandrowicz93/tasks
 
 Code Improvement explanation in points:
 1. The "performOperation" method name is a little lie, because we don't have reliability that operation will be performed, so I changed method name to "performOperationIfAllowed".

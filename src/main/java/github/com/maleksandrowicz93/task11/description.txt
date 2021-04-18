@@ -1,0 +1,2 @@
+Wrap definition is just User class definition extended with thankForLoggingIn function.
+So, Wrap can be used as contructor and variables created in this way can use thankForLoggingIn function.
