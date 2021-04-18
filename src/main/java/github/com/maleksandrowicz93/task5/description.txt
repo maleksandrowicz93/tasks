@@ -1,0 +1,13 @@
+The code has been improved with the use of TDD methodology. At first, the test class had been created and then I did code refactor. I have created fake model classes to make solution simpler. Link to entire solution:
+
+http:
+
+Code Improvement explanation in points:
+1. The "performOperation" method name is a little lie, because we don't have reliability that operation will be performed, so I changed method name to "performOperationIfAllowed".
+2. I made function arguments names more confidence and don't making disinformation.
+3. The for loop... doesn't make a loop, it is a weird equivalent of if, so i replaced that with if statement.
+4. I simplified the main if statement to boolean local variable with the name (isOperationAllowed) matching the whole function name (performOperationIfAllowed) and sense.
+5. I noticed that if-else nested directly in main if statement despite different bodies, have the same logic. So I removed if-else conditions and chose upper version of body because is simpler than bottom one.
+6. I extracted body of main if (isOperationAllowed) into another method named "performOperation".
+7. Complicated if condition from "performOperation" method has been replaced with method named "hasRequiredIds".
+8. I noticed that there is a few times repeated "Y" string, so I created static field.
